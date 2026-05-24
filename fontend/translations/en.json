@@ -1,0 +1,74 @@
+{
+  "Navbar": {
+    "brandName": "Odontis",
+    "home": "HOME",
+    "about": "ABOUT",
+    "FAQs": "FAQs",
+    "prediction": "ODONTO",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title1": "YOUR AI DENTAL HEALTH SUPPORT IS NOW JUST",
+    "title2": "A FEW CLICKS AWAY!",
+    "subtitle": "This platform aims to assist dental professionals and suggests a prognosis. It does not replace clinical diagnosis.",
+    "btnText": "LEARN MORE!"
+  },
+  "Section2": {
+    "step1": "Step 1: Scan",
+    "step2": "Step 2: Upload",
+    "step3": "Step 3: Recieve Your Diagnosis",
+    "tag": "Streamline Your Diagnostics With AI Intelligence"
+  },
+  "Section3": {
+    "title1": "SIMPLE",
+    "subtitle1": "YES YOU CAN DO IT TOO!",
+    "title2": "EASY",
+    "subtitle2": "MORE THAN YOU CAN IMAGINE",
+    "title3": "ACCESSIBLE",
+    "subtitle3": "ANYWHERE! ANYTIME!"
+  },
+  "PredictionPage": {
+    "p1": "ODONTO",
+    "p2": "X-Ray Prediction Tool",
+    "p3": "PLEASE REVIEW OUR DISCLAIMERS & POLICIES TO FULLY UNDERSTAND HOW ODNTIS HANDLES YOUR DATA",
+    "p4": "Upload Image",
+    "p5": "Select your dental X-Ray image from your device to begin.",
+    "p6": "Predict",
+    "p7": "Click the predict button and let the AI analyze your X-Ray.",
+    "p8": "Get Result",
+    "p9": "View the prediction result along with confidence and advice.",
+    "p10": "Upload X-Ray Image",
+    "p11": "Supported formats: JPG, PNG, PDF",
+    "p12": "Predicting...",
+    "p13": "Predict"
+  },
+  "footer": {
+    "tagText": "Odontis is an AI-assisted dental imaging system designed to support clinicians by providing fast,reliable, and non-invasive image-based predictions.",
+    "h1": "Navigation",
+    "h2": "System Features",
+    "feature1": "Dental Image Classification",
+    "feature2": "AI-assisted Diagnosis Support",
+    "feature3": "Secure Image Upload",
+    "feature4": "Real-time Prediction Results",
+    "h3": "Contact",
+    "p1": "Email: support@odontis.ai",
+    "p2": "For academic & research use",
+    "p3": "Final Year Project"
+  },
+  "FAQs": {
+    "heading": "Frequently Asked Questions",
+    "subheading": "Here are the most common questions about Odontis and how it works.",
+    "q1": "What is dental caries?",
+    "a1": "Dental caries is a tooth decay disease caused by bacteria that produce acids, which damage the outer protective layer (enamel) of the tooth.",
+    "q2": "What is gum disease?",
+    "a2": "Gum disease is an infection of the tissues supporting the teeth. The early stage is called gingivitis and the advanced stage is called periodontitis.",
+    "q3": "How many teeth do adults normally have?",
+    "a3": "A healthy adult typically has 32 permanent teeth, including incisors, canines, premolars, and molars.",
+    "q4": "What is a supernumerary tooth?",
+    "a4": "A supernumerary tooth is an extra tooth beyond the normal number. It may cause crowding or misalignment of teeth.",
+    "q5": "General dental healthcare tips?",
+    "a5": "Brush twice daily, floss once a day, limit sugary foods, drink plenty of water, and visit a dentist regularly.",
+    "q6": "Does Odontis provide medical diagnosis?",
+    "a6": "Odontis does not provide any medical diagnosis. Always consult a qualified dental professional for proper treatment, as AI systems may make mistakes."
+  }
+}
