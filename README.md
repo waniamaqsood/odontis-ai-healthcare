@@ -101,7 +101,7 @@ Potential improvements include:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/odontis-ai-healthcare.git
+git clone https://github.com/waniamaqsood/odontis-ai-healthcare.git
 ```
 
 ### Frontend Setup
