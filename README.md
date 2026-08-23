@@ -122,6 +122,4 @@ python app.py
 
 ## 🎥 Demo Video
 
-Add your demo video link here:
-
 [Watch Demo][((https://drive.google.com/file/d/12Ex1_49F6K6k8Vx7NWwA8-N6IuwW8gv4/view?usp=drive_link))]
