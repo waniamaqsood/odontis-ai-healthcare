@@ -1,11 +1,3 @@
-<!--
-DRAFT. Delete this block before publishing.
-Written from the repository code plus the author's own description of the work.
-Deliberately LEFT OUT until the university confirms what may be shared:
-  - the trained model file, dataset details, and evaluation results (e.g. F1 score)
-When cleared, add them in the "Results" section marked below.
--->
-
 # Odontis: AI-Assisted Dental X-ray Classification
 
 A full-stack web application that classifies dental X-ray images into four categories using a Convolutional Neural Network, with an English/Urdu interface and an embedded chatbot for dental-health information.
@@ -25,7 +17,7 @@ Built **solo** as my final year project (FYP).
 
 **Classes:** Caries · Extra Teeth · Gum Disease · Healthy Teeth
 
-The backend does not store uploaded images; each one is processed in memory.
+Privacy by design: the application never saves uploaded images or predictions. See [Privacy by design](#privacy-by-design).
 
 ## My role
 
@@ -97,6 +89,16 @@ npm run dev                    # http://localhost:3000
 
 The frontend calls the backend at `http://127.0.0.1:5000/predict`, and the backend allows requests from `http://localhost:3000`.
 
+## Privacy by design
+
+Because this is a healthcare project, I made a deliberate decision not to keep sensitive data:
+
+* The backend has **no database and no file storage**. An uploaded image is read, classified and discarded; the application code never writes it, or the prediction, anywhere.
+* There are **no user accounts**, so there is no personal profile data to protect.
+* The image preview in the browser is generated locally and is not sent anywhere except to the `/predict` request.
+
+The embedded Botpress chatbot is a third-party service. Anything typed into the chat is handled by Botpress under its own policies, not by this application.
+
 ## Implementation notes
 
 * **Model loaded once** at startup, not per request.
@@ -111,7 +113,7 @@ The frontend calls the backend at `http://127.0.0.1:5000/predict`, and the backe
 * No automated tests.
 * The API address and CORS origin are hard-coded for local development, and Flask runs in debug mode.
 * The chatbot's configuration lives on Botpress and is not part of this repository.
-* No user accounts or authentication; there is no data storage.
+* There is no authentication on the API, which is acceptable for local use only. A deployed version would need it.
 * Predictions depend on image quality and similarity to the training data; the model does not reject images that aren't dental X-rays.
 
 ## Future work
